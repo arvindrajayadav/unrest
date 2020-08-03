@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{423a5f24-314f-4497-9bc4-5f99ac7767d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{a459765e-072b-4aac-be2d-e11bb7c43a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="People">
+      <UniqueIdentifier>{3b5235f7-f685-4f80-9b82-a73cccdd6b6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rapidxml">
+      <UniqueIdentifier>{53fcd949-1e9a-423c-803f-2778fb4eec63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{6ecdf576-ce2e-4779-9fc7-485e24ed693d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{fa2f2c15-1963-4e8c-97e4-50a57aae051d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{a1251437-f56c-4cd1-a999-f85ad96bca2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{4d390616-ea31-4e1b-97d7-d992f9959a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stats">
+      <UniqueIdentifier>{3400e191-713f-4f81-890a-8f0a42b56514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fighting">
+      <UniqueIdentifier>{6aba1500-2d8b-4751-8e20-a06aa7ce5e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites">
+      <UniqueIdentifier>{ba03cf0d-23e6-4470-be79-6b4cf61d6868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quest">
+      <UniqueIdentifier>{e7d80974-5ed7-4ca6-b5ae-752ed101b730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{b8cf07a6-542b-41c6-984a-4a4eb16b10ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{a11bce38-9c82-4725-9a73-909a5f6c4151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Buttons">
+      <UniqueIdentifier>{d06bb082-7a36-47a4-95f6-f73f36963d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Menus">
+      <UniqueIdentifier>{ca7fa3e3-8d09-4de5-a17a-9878e0f66631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Elements">
+      <UniqueIdentifier>{03b6b08f-1be8-41dd-b9f2-d4a43823a61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Elements\Screens">
+      <UniqueIdentifier>{882df78e-d7d7-44a2-818c-9420a607b391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{da2defa2-3843-4d09-a4bb-e7da28cf7e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Map">
+      <UniqueIdentifier>{883a6445-d6d3-4d8b-bfcc-8f8debb69a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\TMX">
+      <UniqueIdentifier>{7bb585ec-fd04-4cd5-a3f9-8f0b6a5013aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Areas">
+      <UniqueIdentifier>{dccdfeb7-fd23-4096-a961-2b57e339fc71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XMLDoc.cpp">
+      <Filter>rapidxml</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicManager.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSeqGroup.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSequence.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="gameevent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEventInfo.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="gameeventmanager.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="trigger.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="person.cpp">
+      <Filter>People</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="mainmenu.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="splash.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="hud.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameParam.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSlot.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="StatPreview.cpp">
+      <Filter>Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Stat.cpp">
+      <Filter>Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="StatDrawHelper.cpp">
+      <Filter>Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="StatTemplate.cpp">
+      <Filter>Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="opinion.cpp">
+      <Filter>People</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="animframe.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="animset.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="imageeffect.cpp">
+      <Filter>Fighting</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCollection.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="itemmenu.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="moveeffect.cpp">
+      <Filter>Fighting</Filter>
+    </ClCompile>
+    <ClCompile Include="fightmoves.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="walkframes.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="eventstore.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="triggerset.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="quest.cpp">
+      <Filter>Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="questmenu.cpp">
+      <Filter>Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="spriteai.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="personbase.cpp">
+      <Filter>People</Filter>
+    </ClCompile>
+    <ClCompile Include="journal.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="inputval.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="movement.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="talknotify.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="PopUp.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSettings.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>UI\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipButton.cpp">
+      <Filter>UI\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplyButton.cpp">
+      <Filter>UI\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleButton.cpp">
+      <Filter>UI\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBindMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplyMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="ResolutionMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveGameMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="fightinput.cpp">
+      <Filter>Fighting</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ModMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageData.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="FileData.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="StateButton.cpp">
+      <Filter>UI\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="trait.cpp">
+      <Filter>People</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditScreen.cpp">
+      <Filter>UI\Elements\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonScreen.cpp">
+      <Filter>UI\Elements\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Caption.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogbox.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="element.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthIndicator.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="HoverInfo.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScreen.cpp">
+      <Filter>UI\Elements\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionHeader.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="slider.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="textarea.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideShow.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="hotkey.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionSelect.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="cursor.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="TraitButton.cpp">
+      <Filter>UI\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="TraitMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="conversationdata.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="emotion.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestText.cpp">
+      <Filter>Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>UI\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapData.cpp">
+      <Filter>UI\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="textdata.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="ParagraphData.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="ChapterIntro.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteConstant.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="level_draw.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="level_collide.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="level_load.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="TMXLayer.cpp">
+      <Filter>Levels\TMX</Filter>
+    </ClCompile>
+    <ClCompile Include="TMXMap.cpp">
+      <Filter>Levels\TMX</Filter>
+    </ClCompile>
+    <ClCompile Include="TMXTileSet.cpp">
+      <Filter>Levels\TMX</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicArea.cpp">
+      <Filter>Levels\Areas</Filter>
+    </ClCompile>
+    <ClCompile Include="Stairs.cpp">
+      <Filter>Levels\Areas</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelExit.cpp">
+      <Filter>Levels\Areas</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaImage.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="level_ai.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="PathfindingGraphNode.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="PathfindingGrid.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="PathfindingAgent.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="fightanim.cpp">
+      <Filter>Fighting</Filter>
+    </ClCompile>
+    <ClCompile Include="FightMove.cpp">
+      <Filter>Fighting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralSettingMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxSettingMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="url.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MapMarkerMenu.cpp">
+      <Filter>UI\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="DevConsole.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="level_objects.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonHandler.cpp">
+      <Filter>People</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationFrame.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rapidxml\rapidxml.hpp">
+      <Filter>rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml\rapidxml_iterators.hpp">
+      <Filter>rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml\rapidxml_print.hpp">
+      <Filter>rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml\rapidxml_utils.hpp">
+      <Filter>rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="gamestate_container.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="gamestates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="mainmenu.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="splash.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="numstr.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSequence.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="gameevent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="gameeventmanager.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="hud.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClock.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLDoc.h">
+      <Filter>rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="GameParam.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicManager.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSeqGroup.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="person.h">
+      <Filter>People</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="trigger.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEventInfo.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="bonus.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSlot.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="StatPreview.h">
+      <Filter>Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Stat.h">
+      <Filter>Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="StatDrawHelper.h">
+      <Filter>Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="StatTemplate.h">
+      <Filter>Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opinion.h">
+      <Filter>People</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="animframe.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="animset.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="imageeffect.h">
+      <Filter>Fighting</Filter>
+    </ClInclude>
+    <ClInclude Include="range.h">
+      <Filter>Fighting</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCollection.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="itemmenu.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="musicparam.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="moveeffect.h">
+      <Filter>Fighting</Filter>
+    </ClInclude>
+    <ClInclude Include="fm_ai_data.h">
+      <Filter>Fighting</Filter>
+    </ClInclude>
+    <ClInclude Include="fightmoves.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="walkframes.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="talknotify.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="eventstore.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="triggerset.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="quest.h">
+      <Filter>Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="questmenu.h">
+      <Filter>Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestText.h">
+      <Filter>Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="changeval.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="personbase.h">
+      <Filter>People</Filter>
+    </ClInclude>
+    <ClInclude Include="movement.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteai.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="journal.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputval.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PopUp.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSettings.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>UI\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipButton.h">
+      <Filter>UI\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplyButton.h">
+      <Filter>UI\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleButton.h">
+      <Filter>UI\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBindMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="PageMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplyMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="ResolutionMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveGameMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="mapbutton.h">
+      <Filter>UI\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="fightinput.h">
+      <Filter>Fighting</Filter>
+    </ClInclude>
+    <ClInclude Include="common_header.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ModMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageData.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="FileData.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StateButton.h">
+      <Filter>UI\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="trait.h">
+      <Filter>People</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditScreen.h">
+      <Filter>UI\Elements\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonScreen.h">
+      <Filter>UI\Elements\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Caption.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogbox.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="element.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthIndicator.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="HoverInfo.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScreen.h">
+      <Filter>UI\Elements\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="SectionHeader.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="slider.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="textarea.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="SlideShow.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="hotkey.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionSelect.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDesc.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="TraitButton.h">
+      <Filter>UI\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="TraitMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="conversationdata.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="emotion.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>UI\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapData.h">
+      <Filter>UI\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TextData.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="ParagraphData.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="ChapterIntro.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteConstant.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="TMXLayer.h">
+      <Filter>Levels\TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="TMXMap.h">
+      <Filter>Levels\TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="TMXTileSet.h">
+      <Filter>Levels\TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="TileInfo.h">
+      <Filter>Levels\TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="Stairs.h">
+      <Filter>Levels\Areas</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelExit.h">
+      <Filter>Levels\Areas</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelResult.h">
+      <Filter>Levels\Areas</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicArea.h">
+      <Filter>Levels\Areas</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaImage.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="PathfindingGraphNode.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="PathfindingGrid.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="PathfindingAgent.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioButton.h">
+      <Filter>UI\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioButtonMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="fightanim.h">
+      <Filter>Fighting</Filter>
+    </ClInclude>
+    <ClInclude Include="FightMove.h">
+      <Filter>Fighting</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxSettingMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralSettingMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="url.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMarkerMenu.h">
+      <Filter>UI\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="DevConsole.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="level_objects.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonHandler.h">
+      <Filter>People</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFrame.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationEffect.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CRAB.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
